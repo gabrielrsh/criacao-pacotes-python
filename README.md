@@ -1,27 +1,30 @@
 # package_name
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package calc_gabrielrs is used to:
+	Operacoes:
+		- Soma  
+		- Subtracao
+		- Multiplicacao
+		- Divisao
 
-## Installation
+## Installat
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install calc_gabrielrs
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from calc_gabrielrs.operacoes import operacoes_basicas
+operacoes_basicas.somar(1,2)
 ```
 
 ## Author
-My_name
+Gabriel R.S
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
